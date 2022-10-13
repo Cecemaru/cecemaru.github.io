@@ -1,68 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
     <header class="mainHeader" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav-logo">omer</a>
-            <div class="nav-menu" id="navMenu">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                         <a href="#anasayfa" class="nav-link active-link">
-                            <i class="bx bx-home"></i>AnaSayfa
-                         </a>
-                    </li>
-                    <li class="nav-item">
-                         <a href="#profile" class="nav-link">
-                            <i class='bx bx-user'></i>Profil
-                         </a>
-                    </li>
-                    <li class="nav-item">
-                         <a href="#education" class="nav-link">
-                            <i class='bx bx-book' ></i>Egitim
-                         </a>
-                    </li>
-                    <li class="nav-item">
-                         <a href="#skills" class="nav-link">
-                            <i class='bx bx-receipt' ></i>yetenekler
-                         </a>
-                    </li>
-                    <li class="nav-item">
-                         <a href="#" class="nav-link">
-                            <i class='bx bx-briefcase' ></i>tecrube
-                         </a>
-                    </li>
-                    <li class="nav-item">
-                         <a href="#" class="nav-link">
-                            <i class='bx bx-briefcase' ></i>referans
-                         </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="bx bx-grid-alt"></i>
-            </div>
-        </nav>
-    </header>
-   <div class="main container">
-    <div class="left_side">
-        <div class="profileText">
-            <div class="imgBox">
-                <img src="https://avatars.githubusercontent.com/u/94255188?v=4" alt="portfolio-image">
-            </div>
-            <h2>omer duzgun<br><span>jr.frontend developer</span></h2>
+      <nav class="nav container">
+        <a href="#" class="nav-logo">omer</a>
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#anasayfa" class="nav-link active-link">
+                <i class="bx bx-home"></i>AnaSayfa
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#profile" class="nav-link">
+                <i class="bx bx-user"></i>Profil
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">
+                <i class="bx bx-book"></i>Egitim
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">
+                <i class="bx bx-receipt"></i>yetenekler
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bx bx-briefcase"></i>tecrube
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bx bx-briefcase"></i>referans
+              </a>
+            </li>
+          </ul>
         </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+    <div class="main container">
+      <div class="resume">
+        <div class="left_side">
+          <!-- home section area  -->
+          <section class="home" id="home">
+            <div class="home-container section grid">
+              <div class="home-data grid">
+                <img
+                  src="https://avatars.githubusercontent.com/u/94255188?v=4"
+                  alt="portfolio-image"
+                  class="home-img"
+                />
+                <h1 class="home-title">omer <b>duzgun</b></h1>
+                <h3 class="home-profession">webdeveloper</h3>
+                <!-- button dowenload cv saved the pdf -->
+                <div><a href="#" class="home-button-movil">dowenload</a></div>
+              </div>
+              <div class="home-adress grid">
+                <span class="home-information">
+                  <i class="bx bx-map home-icon"></i
+                  >ismetpasamahallesikenarcaddesi
+                </span>
+                <span class="home-information">
+                  <i class="bx bx-envelope home-icon"></i>Cecemaru@hotmail.com
+                </span>
+                <span class="home-information">
+                  <i class="bx bx-phone home-icon"></i>531 034 33 02
+                </span>
+              </div>
+            </div>
+          </section>
+          <!-- social media area -->
+          <section class="social section">
+            <h2 class="section-title">sosyalmedya</h2>
+            <div class="social-container grid">
+              <a href="#" target="_blank" class="social-link">
+                <i class="bx bxl-linkedin-square social-icon"></i>cecemaru
+              </a>
+              <a href="#" target="_blank" class="social-link">
+                <i class="bx bxl-linkedin-square social-icon"></i>cecemaru
+              </a>
+              <a href="#" target="_blank" class="social-link">
+                <i class="bx bxl-linkedin-square social-icon"></i>cecemaru
+              </a>
+              <a href="#" target="_blank" class="social-link">
+                <i class="bx bxl-linkedin-square social-icon"></i>cecemaru
+              </a>
+            </div>
+          </section>
+          <!-- profile section area  -->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">profile</h2>
+            <p class="profile-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
+              aut, illo consectetur, aliquid ea distinctio temporibus hic id
+              corrupti molestiae et deserunt facere dolor! Architecto, veritatis
+              recusandae. Odio, officiis architecto.
+            </p>
+          </section>
+        </div>
+        <div class="right_side"></div>
+      </div>
     </div>
-    <div class="right_side"></div>
-   </div> 
-   <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
