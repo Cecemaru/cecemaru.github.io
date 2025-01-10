@@ -22,6 +22,8 @@
 
 #### - [FiabooMobileApp](https://fiaboo.com/)![website](assets/img_and_pdf-cv/Worked-websites/fiaboo-book-app-web-site.jpg)
 
+### - [SarikayaMotor](https://www.sarikayamotor.com.tr/)![website](assets/img_and_pdf-cv/Worked-websites/sarikaya-motor-web-site.jpg)
+
 #### - [SahinlerCanta](https://www.sahinlercanta.com/)![website](assets/img_and_pdf-cv/Worked-websites/sahinler-canta-web-site.jpg)
 
 #### - [Dent10](https://www.dent-10.com/)![website](assets/img_and_pdf-cv/Worked-websites/dent-10-web-site.jpg)
